@@ -13,7 +13,7 @@ by Paul Bishop and his Realtime Audio Spectrum Analyzer project. The frequency b
 ###Websockets
 
 The WebSocket [library](https://github.com/leg0/Arduino-Websocket) comes from github user leg0 and was modified to send out 
-a char array containing the 63 values per sample. The real-time data is then processes server-side to display an audio spectrum. 
+a char array containing the 63 values per sample. The real-time data is then processed server-side to display an audio spectrum. 
 There appears to be a 126 long char limit or the connection will time out, it's possible that adding a delay will fix the
 problem but I have not tried. 
 
